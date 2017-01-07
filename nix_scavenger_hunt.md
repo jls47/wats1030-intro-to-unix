@@ -1,4 +1,4 @@
-  
+   
 # *nix Scavenger Hunt
 
 Complete the following challenges using the command-line interface on your favorite
@@ -27,8 +27,10 @@ and then clone it to your development environment.
 * Commands can also take *arguments*, which are usually the names of files or locations that you want the command to work with. Try running `ls /` to see what files are in the *root* directory of the filesystem. *What files and directories do you see listed?*
 ** init and temp are highlighted in green, everything else is in blue: acct, boot, data, etc, lib64, media, opt, root, sbin, sys, usr, etc **
 * A Unix filesystem has a few special shortcuts to refer to specific locations. `/` indicates the *root* of the filesystem, meaning the top-most directory in the filesystem hierarchy. Use the `cd` ("change directory") command to move to the root directory. (Hint: Use `man` to look up the `cd` command if you have any issues) *Then run `pwd` and paste the output here:*
-**
+** / **
+
 * Another special shortcut in Unix is the `~` location. This indicates the *user root* directory, meaning the top-most directory in the hierarchy that comes below your user account. Use `cd` to move to `~`. *Run `pwd` and paste the response here:*
+**
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. *How many files do you find?*
 * Use the `cd` command to move "up" one directory. *Where are you in the filesystem now?*
 * Press the up arrow on your keyboard. *What just happened?*
